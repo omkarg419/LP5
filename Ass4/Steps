@@ -1,0 +1,7 @@
+#1st Terminal
+   sudo apt update
+   sudo apt install python3 python3-pip  //password-123456
+   python3 server.py 
+   
+#2nd Terminal
+   python3 client.py   
