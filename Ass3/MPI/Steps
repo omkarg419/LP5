@@ -1,0 +1,25 @@
+sudo apt update
+sudo apt install mpich
+
+#MPI
+   mpicc -o sum1_mpi sum1_mpi.c
+   mpirun -np 4 ./sum1_mpi
+   
+#Output
+
+Enter 8 elements:
+0
+1
+2
+3
+4
+5
+6
+7
+Element [0]: Element [1]: Element [2]: Element [3]: Element [4]: Element [5]: Element [6]: Element [7]: Process 0: Local sum = 1
+Process 1: Local sum = 5
+Process 2: Local sum = 9
+Process 3: Local sum = 13
+Final total sum = 28
+   
+

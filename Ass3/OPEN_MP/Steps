@@ -1,0 +1,31 @@
+sudo apt update
+sudo apt install gcc
+
+#OpenMP 
+    gcc -fopenmp -o sum1_omp sum1_omp.c
+    ./sum1_omp
+
+#Output
+
+Enter the number of elements: 10
+Enter 10 elements:
+Element 0 = 0
+Element 1 = 1  
+Element 2 = 2
+Element 3 = 3
+Element 4 = 4
+Element 5 = 5
+Element 6 = 6
+Element 7 = 7
+Element 8 = 8
+Element 9 = 9
+Thread 0: partial sum = 0
+Thread 7: partial sum = 24
+Thread 3: partial sum = 3
+Thread 4: partial sum = 4
+Thread 6: partial sum = 6
+Thread 5: partial sum = 5
+Thread 2: partial sum = 2
+Thread 1: partial sum = 1
+Final total sum: 45
+
