@@ -1,0 +1,20 @@
+java -version
+javac -version
+
+#Terminal 1
+    javac *.java
+    rmiregistry
+
+#Terminal 2
+    java Server    
+
+#Terminal 3
+    java Client
+    
+#Output Terminal 3
+
+Enter First String: 4
+Enter Second String: 3
+--------------- Results ---------------
+Strings After Joining Is: 43
+
