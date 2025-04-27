@@ -1,0 +1,40 @@
+#Terminal 1
+   sudo apt update
+   javac tokenring.java
+   
+#Terminal 2
+   java tokenring
+   
+#Output on terminal 2
+
+Enter the num of nodes:
+5
+ 0 1 2 3 4 0
+Enter sender:
+1
+Enter receiver:
+4
+Enter Data:
+43
+Token passing: 0-> 1
+Sender 1 sending data: 43
+data  43 forwarded by 2
+data  43 forwarded by 3
+Receiver 4 received data: 43
+
+Do you want to send again?? enter 1 for Yes and 0 for No : 1
+Enter sender:
+2
+Enter receiver:
+2
+Enter Data:
+3
+Token passing: 1-> 2
+Sender 2 sending data: 3
+data  3 forwarded by 3
+data  3 forwarded by 4
+data  3 forwarded by 0
+data  3 forwarded by 1
+Receiver 2 received data: 3
+
+      
