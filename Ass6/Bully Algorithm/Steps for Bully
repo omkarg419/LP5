@@ -1,0 +1,123 @@
+#Terminal 1 for Bully Algorithm
+javac Bully.java
+java Bully
+
+#Output for Bully Algorithm.
+
+Bully Algorithm
+1. Create processes
+2. Display processes
+3. Up a process
+4. Down a process
+5. Run election algorithm
+6. Exit Program
+Enter your choice:- 1
+Enter the number of processes:- 4
+Creating processes..
+P1 created
+P2 created
+P3 created
+P4 created
+Process P4 is the coordinator
+Bully Algorithm
+1. Create processes
+2. Display processes
+3. Up a process
+4. Down a process
+5. Run election algorithm
+6. Exit Program
+Enter your choice:- 2
+P1 is up
+P2 is up
+P3 is up
+P4 is up
+Process P4 is the coordinator
+Bully Algorithm
+1. Create processes
+2. Display processes
+3. Up a process
+4. Down a process
+5. Run election algorithm
+6. Exit Program
+Enter your choice:- 3
+Enter the process number to up:- 2
+Process 2 is already up.
+Bully Algorithm
+1. Create processes
+2. Display processes
+3. Up a process
+4. Down a process
+5. Run election algorithm
+6. Exit Program
+Enter your choice:- 4
+Enter the process number to down:- 2
+Process 2 is down.
+Bully Algorithm
+1. Create processes
+2. Display processes
+3. Up a process
+4. Down a process
+5. Run election algorithm
+6. Exit Program
+Enter your choice:- 2
+P1 is up
+P2 is down
+P3 is up
+P4 is up
+Process P4 is the coordinator
+Bully Algorithm
+1. Create processes
+2. Display processes
+3. Up a process
+4. Down a process
+5. Run election algorithm
+6. Exit Program
+Enter your choice:- 5
+Enter the process number which will perform election:- 3
+Election message sent from process 3 to process 4
+P1 is up
+P2 is down
+P3 is up
+P4 is up
+Process P4 is the coordinator
+Bully Algorithm
+1. Create processes
+2. Display processes
+3. Up a process
+4. Down a process
+5. Run election algorithm
+6. Exit Program
+Enter your choice:- 5
+Enter the process number which will perform election:- 2
+Election message sent from process 2 to process 3
+Election message sent from process 3 to process 4
+P1 is up
+P2 is down
+P3 is up
+P4 is up
+Process P4 is the coordinator
+Bully Algorithm
+1. Create processes
+2. Display processes
+3. Up a process
+4. Down a process
+5. Run election algorithm
+6. Exit Program
+Enter your choice:- 5
+Enter the process number which will perform election:- 1
+Election message sent from process 1 to process 2
+Election message sent from process 1 to process 3
+Election message sent from process 3 to process 4
+P1 is up
+P2 is down
+P3 is up
+P4 is up
+Process P4 is the coordinator
+Bully Algorithm
+1. Create processes
+2. Display processes
+3. Up a process
+4. Down a process
+5. Run election algorithm
+6. Exit Program
+Enter your choice:-
