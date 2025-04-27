@@ -1,0 +1,74 @@
+#Open First Terminal.
+    idlj -fall Calc.idl   //create a calcapp folder
+
+#Now open terminal in calcapp folder.   
+    javac *.java CalcPackage/*.java
+    orbd -ORBInitialPort 1050&
+    
+#Now go to first terminal where you typed 'idlj -fall Calc.idl' this command.  
+    javac CalcServer.java
+    java CalcServer -ORBInitialPort 1050 -ORBInitialHost localhost&
+
+#In the same terminal add one more new terminal.
+    javac CalcClient.java
+    java CalcClient -ORBInitialPort 1050 -ORBInitialHost localHost 
+
+#Output
+
+1. Sum
+2. Sub
+3. Mul
+4. Div
+5. exit
+--
+choice: 
+1
+a: 5
+b: 6
+a+b= 11.0
+
+1. Sum
+2. Sub
+3. Mul
+4. Div
+5. exit
+--
+choice: 
+2
+a: 10
+b: 5
+a-b= 5.0
+
+1. Sum
+2. Sub
+3. Mul
+4. Div
+5. exit
+--
+choice: 
+3
+a: 5
+b: 5
+a*b= 25.0
+
+1. Sum
+2. Sub
+3. Mul
+4. Div
+5. exit
+--
+choice: 
+4
+a: 10
+b: 2
+a/b= 5.0
+
+1. Sum
+2. Sub
+3. Mul
+4. Div
+5. exit
+--
+choice: 
+5
+
